@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"github.com/divrhino/divrhino-trivia/database"
-	"github.com/divrhino/divrhino-trivia/models"
+	"github.com/dassudip2001/learning/database"
+	"github.com/dassudip2001/learning/models"
 	"github.com/gofiber/fiber/v2"
 )
 
@@ -11,7 +11,7 @@ func ListFacts(c *fiber.Ctx) error {
 	database.DB.Db.Find(&facts)
 
 	return c.Render("index", fiber.Map{
-		"Title":    "Div Rhino Trivia Time",
+		"Title":    "Learning GO with Fiber",
 		"Subtitle": "Facts for funtimes with friends!",
 		"Facts":    facts,
 	})

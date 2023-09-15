@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/divrhino/divrhino-trivia/models"
+	"github.com/dassudip2001/learning/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

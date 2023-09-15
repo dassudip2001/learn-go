@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/divrhino/divrhino-trivia/handlers"
+	"github.com/dassudip2001/learning/handlers"
 	"github.com/gofiber/fiber/v2"
 )
 
