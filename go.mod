@@ -1,4 +1,4 @@
-module github.com/divrhino/divrhino-trivia
+module github.com/dassudip2001/learning 
 
 go 1.19
 

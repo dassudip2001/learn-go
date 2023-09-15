@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/divrhino/divrhino-trivia/database"
+	"github.com/dassudip2001/learning/database"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/template/html"
 )
